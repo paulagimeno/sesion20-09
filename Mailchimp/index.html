@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <section class="firstbox">
+        <img
+          class="logo"
+          src="https://1000logos.net/wp-content/uploads/2023/04/Mailchimp-logo-2018.png"
+        />
+      </section>
+      <section class="secondbox">
+        <div class="texttop">
+          <h1 class="title"><b>Welcome to Mailchimp</b></h1>
+          <p class="descripcion">
+            Find your people. Engage your customers. Build your brand. Do it all
+            with Mailchimp's Marketing Platform. Already have an account?
+            <a href="" class="link1">Log in</a>
+          </p>
+        </div>
+        <div class="formulario">
+          <form action="index.html">
+            <label for="email">
+              <p class="indic"><b>Email</b></p>
+              <input class="cuadro" type="email" required />
+            </label>
+            <label for="username">
+              <p class="indic"><b>Username</b></p>
+              <input class="cuadro" type="text" name="username" required />
+            </label>
+            <label for="password">
+              <p class="indic"><b>Password</b></p>
+              <input class="cuadro" type="password" required minlength="8"/>
+            </label>
+          </form>
+        </div>
+        <div class="requirements">
+            <ul class="lista1">
+                <li>One lowercase character</li>
+                <li>One uppercase character</li>
+                <li>One number</li>
+            </ul>
+            <ul class="lista1" id="lista2">
+                <li>One special character</li>
+                <li>8 characters minimum</li>
+            </ul>
+        </div>
+        <div class="buttons">
+           <input type="submit" value="Sign up" class="send">
+           <input type="checkbox" class="check"><span>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</span>
+        </div>
+        <div class="ending">
+           <p><span>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="" class="lowlink">Terms of Use</a>and <a href="" class="lowlink">Privacy Policy</a>.</span></p> 
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

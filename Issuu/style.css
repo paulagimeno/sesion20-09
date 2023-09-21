@@ -98,12 +98,22 @@ footer {
 
 .enlace {
     color: black;
-}
-
-a {
-    style: none;
+    text-decoration: none;
 }
 
 .sign {
     color: rgb(43, 135, 255);
+    text-decoration: none;
+}
+
+.submitbutton {
+    border-style: dashed;
+    border-radius: 60px;
+    width: 150px;
+    height: 30px;
+}
+
+.inputbox {
+    width: 300px;
+    height: 30px;
 }
